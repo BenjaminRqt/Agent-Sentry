@@ -1,0 +1,19 @@
+{
+  "sentry_url": "https://sentry.example.com",
+  "sentry_org": "mon-org",
+  "gitlab_url": "https://gitlab.example.com",
+  "environnement": "prod",
+  "fenetre": "7d",
+  "seuil_evenements": 10,
+  "seuil_utilisateurs": 3,
+  "max_mr_par_passage": 3,
+  "projets": [
+    {
+      "actif": false,
+      "sentry_id": 1,
+      "gitlab": "groupe/projet",
+      "depot": "/chemin/vers/clone/projet",
+      "branche_cible": "main"
+    }
+  ]
+}
